@@ -49,7 +49,7 @@
 #define MAGIC_NUMBER 0xfadbf1ce
 #endif
 #define HEADER_LENGTH      24
-#define MAX_MSG_LENGTH     0x02000000 // or 2 * 1024 * 1024
+#define MAX_MSG_LENGTH     0x02000000
 #define MAX_GETDATA_HASHES 50000
 #define ENABLED_SERVICES   0ULL  // we don't provide full blocks to remote nodes
 #define PROTOCOL_VERSION   60038
