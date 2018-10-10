@@ -46,8 +46,8 @@ extern "C" {
 
 #define TXIN_SEQUENCE        UINT32_MAX  // sequence number for a finalized tx input
 
-#define SATOSHIS             100000000LL
-#define MAX_MONEY            (84000000LL*SATOSHIS)
+#define SATOSHIS             1000000LL
+#define MAX_MONEY            (50000000000LL*SATOSHIS)
 
 #define BR_RAND_MAX          ((RAND_MAX > 0x7fffffff) ? 0x7fffffff : RAND_MAX)
 
