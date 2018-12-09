@@ -54,9 +54,7 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "www.cryptounited.io.",
-    "138.197.100.45",
-    "eccnode.altj.com."
+    "www.cryptounited.io."
 };
 
 #else // main net
@@ -72,7 +70,9 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "127.0.0.1."
+    "www.cryptounited.io.",
+    "138.197.100.45",
+    "eccnode.altj.com."
 };
 
 #endif
